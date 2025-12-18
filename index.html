@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <title>Портфолио</title>
+    <meta name="description" content="Фото-портфолио" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav>
+        <a href="#home" class="p-2-white">Главная</a>
+        <a href="#about" class="p-2-white">Обо мне</a>
+        <a href="#portfolio" class="p-2-white">Фото-портфолио</a>
+        <a href="#contact" class="p-2-white">Свяжитесь со мной</a>
+    </nav>
+    
+    <header id="home">
+      <div class="header">
+        <h1 class="hi">Привет!</h1>
+        <p class="h2">Это мое* портфолио и проект по-совместительтву</p> 
+      </div>
+      <img class="photo" src="assets/img/photo.png" alt="моя фотка" />
+    </header>
+    <p class="p-1-1-pink">(это я кстати)</p>
+        <p class="p-2-pink">*не совсем мое, это фотографии из галерей моих друзей</p>
+        <section class="section-1" id="about">
+            <h2 class="h1-w">Обо мне</h2>
+            <h3 class="p-3-white">Хобби:</h3>
+            <div class="section-1-1">
+              <ol class="p-1-white">
+                  <li>мне столько-то лет</li>
+                  <li>получила профессию "Корректор"</li>
+                  <li>живу в таком-то городе</li>
+                  <li>фотографирую со стольки-то лет</li>
+                  <li>сейчас учусь на выпускном курсе <div>по специальности "Издательское дело"</div></li>
+              </ol>
+              <div class="hobbies"> 
+                  <ul class="p-1-white">
+                      <li>рисование</li>
+                      <li>вышивка</li>
+                      <li>готовка</li>
+                      <li>вязание</li>
+                  </ul>
+              </div>
+                  <div><ul class="p-1-white">
+                        <li>лепка</li>
+                        <li>спорт</li>
+                        <li>выпечка</li>
+                        <li>чтение</li>
+                      </ul>
+                  </div>
+            </div>
+      </section>
+        <h2 id="portfolio-heading" class="h1-p">Фото-портфолио</h2>
+      <section class="section-2" id="portfolio">
+        <div class="photos-1">
+          <img src="assets/img/image 1.png" alt="фото кота 1"/>
+          <img src="assets/img/image 2.png" alt="фото кота 2"/>
+          <img src="assets/img/image 3.png" alt="фото кота 3"/>
+          <img src="assets/img/image 4.png" alt="фото кота 4"/>
+          <img src="assets/img/image 5.png" alt="фото кота 5"/>
+          <img src="assets/img/image 6.png" alt="фото кота 6"/>
+        </div>
+        <div class="photos-2">
+            <img src="assets/img/image 7.png" alt="фото пейзаж 1"/>
+          <img src="assets/img/image 8.png" alt="фото пейзаж 2"/>
+          <img src="assets/img/image 9.png" alt="фото пейзаж 3"/>
+          <img src="assets/img/image 10.png" alt="фото пейзаж 4"/>
+          <img src="assets/img/image 13.png" alt="фото пейзаж 5"/>
+          <img src="assets/img/image 15.png" alt="фото пейзаж 6"/>
+        </div>
+         <div class="photos-3">
+          <img src="assets/img/image 11.png" alt="фото луна 1"/>
+          <img src="assets/img/image 12.png" alt="фото луна 2"/>
+          <img src="assets/img/image 14.png" alt="фото луна 3"/>
+          <img src="assets/img/image 16.png" alt="фото луна 4"/>
+          <img src="assets/img/image 17.png" alt="фото луна 5"/>
+          <img src="assets/img/image 18.png" alt="фото луна 6"/>
+         </div>
+      </section>
+      <section class="section-3" id="contact">
+        <h2 id="contact-heading" class="h1-w">Свяжитесь со мной</h2>
+        <form class="contact-form" action="#" method="post">
+          <div class="form-group">
+            <label for="name" class="p-form">Ваше имя</label>
+            <input type="text" id="name" name="name" class="form-input" required />
+          </div>
+          <div class="form-group">
+            <label for="phone" class="p-form">Ваш контактный телефон</label>
+            <input type="tel" id="phone" name="phone" class="form-input" required />
+          </div>
+          <div class="form-group">
+            <label for="text" class="p-form"></label>
+            <textarea id="text" name="text" class="form-textarea" maxlength="1000">Тут можете что-то написать, я все прочитаю :)</textarea>
+          </div>
+          <button type="submit" class="button-send" aria-label="Отправить форму">
+            <span class="p-1-pink">Отправить</span>
+          </button>
+        </form>
+        <a href="#home" class="button-up">
+            <span id="home" class="p-1-pink">наверх</span>
+        </a>
+      </section>
+        <div class="my-contact">
+          <h3 class="h1-p">Мои контакты:</h3>
+          <p class="p-3-pink">Телефон: +7 896 989 98 98</p>
+          <p class="p-3-pink">Email: jfkskdhfjdl@mail.com</p>
+        </address>
+  </body>
+</html>
