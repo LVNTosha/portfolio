@@ -5,11 +5,6 @@ a {
     text-decoration: none;
     color: #ffffff;
 }
-
-@media screen (min-width: 500px) {
-    
-}
-
 body {
     background-color: #ffffff;
     width: 100%;
@@ -89,7 +84,6 @@ header{
     margin-top: 30px;
     margin-bottom: 50px;
     line-height: normal;
-    
 }
 .p-1-pink{
     display: flex;
@@ -125,6 +119,7 @@ header{
     color: #ffffff;
     margin-top: 50px;
     margin-bottom: 50px;
+    text-shadow:0px 5px 5px #691550;
 }
 .h1-p{
     display: flex;
@@ -136,6 +131,7 @@ header{
     margin-bottom: 50px;
     background-color: #ffffff;
     border-color: #FA7CD4 3px;
+    text-shadow:0px 5px 5px #691550;
 }
 .section-1{
     background-color: #FA7CD4;
@@ -230,4 +226,6 @@ header{
     height: 218px;
     margin-left: 20px;
 }
-
+.hi{
+    text-shadow:0px 5px 5px #691550;
+}
